@@ -1,0 +1,19 @@
+cookie:
+  expiry_days: 7
+  key: neosave_gif_key # Must be a string
+  name: neosave_gif_cookie
+credentials:
+  usernames:
+    tester:
+      email: cserock@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Tester
+      password: Q123456 # Will be hashed automatically
+      roles:
+      - admin
+      - editor
+      - viewer
+pre-authorized:
+  emails:
+  - cserock@gmail.com
